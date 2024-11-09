@@ -1,0 +1,9 @@
+.contenido {
+  margin-left: 250px; /* Deja espacio para el menú lateral */
+  padding: 20px;
+  transition: margin-left 0.3s ease; /* Suaviza la transición */
+}
+
+.menu-lateral.hidden + .contenido {
+  margin-left: 0; /* Ajusta el margen cuando el menú está oculto */
+}

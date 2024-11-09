@@ -1,0 +1,29 @@
+<div class="menu-lateral d-flex flex-column p-3" [class.hidden]="!isMenuVisible">
+  <!--<button class="btn btn-dark toggle-button" (click)="toggleMenu()">☰</button>-->
+  <h4 class="text-white mt-4">Navegacion</h4>
+  <ul class="nav nav-pills flex-column mt-3" >
+    <li class="nav-item">
+      <a class="nav-link text-white" routerLink="/productos" routerLinkActive="active" (click)="navigateToProductos()">
+        Productos
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" routerLink="/clientes" routerLinkActive="active" (click)="navigateToClientes()">
+        Clientes
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" routerLink="/ventas" routerLinkActive="active" (click)="navigateToVentas()">
+      Ventas
+    </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" routerLink="/usuarios" routerLinkActive="active" (click)="navigateToUsuarios()">
+      Usuarios
+    </a>
+    </li>
+  </ul>
+</div>
+  
+
+  
